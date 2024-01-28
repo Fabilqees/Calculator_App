@@ -21,6 +21,7 @@ import androidx.compose.ui.unit.sp
 import com.bilqees.calculator_app.ui.theme.Grey
 import com.bilqees.calculator_app.ui.theme.Orange
 import com.bilqees.calculator_app.ui.theme.Peach
+import com.bilqees.calculator_app.ui.theme.Pink80
 import com.bilqees.calculator_app.ui.theme.Sage
 
 @Composable
@@ -60,7 +61,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "/",
                     modifier = Modifier
-                        .background(Orange)
+                        .background(Pink80)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -73,7 +74,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "Del",
                     modifier = Modifier
-                        .background(Orange)
+                        .background(Pink80)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -86,7 +87,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "AC",
                     modifier = Modifier
-                        .background(Orange)
+                        .background(Pink80)
                         .aspectRatio(2f)
                         .weight(2f),
                     onClick = {
@@ -108,7 +109,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "*",
                     modifier = Modifier
-                        .background(Orange)
+                        .background(Pink80)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -168,7 +169,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "+",
                     modifier = Modifier
-                        .background(Orange)
+                        .background(Pink80)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -230,7 +231,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "-",
                     modifier = Modifier
-                        .background(Orange)
+                        .background(Pink80)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
